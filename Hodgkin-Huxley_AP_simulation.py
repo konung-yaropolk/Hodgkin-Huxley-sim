@@ -20,7 +20,7 @@ EL  = -54.4
 
 # Stimulation
 stim_amp = 100.0   # uA/cm²
-stim_dur = 50.0     # ms
+stim_dur = 70.0     # ms
 
 # Functions
 def alpha_m(V):   return 0.1 * (V + 40) / (1 - np.exp(-(V + 40)/10))
